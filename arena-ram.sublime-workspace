@@ -523,9 +523,13 @@
 	"build_system": "Packages/User/openframeworks.sublime-build",
 	"command_palette":
 	{
-		"height": 400.0,
+		"height": 67.0,
 		"selected_items":
 		[
+			[
+				"mardk",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
 			[
 				"pack ins",
 				"Package Control: Install Package"
@@ -671,7 +675,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 718.0
+		"width": 583.0
 	},
 	"console":
 	{
@@ -688,6 +692,8 @@
 	},
 	"file_history":
 	[
+		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/readme.md",
+		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/.gitignore",
 		"/Users/tommi/Documents/thomastraum/sites/meteor/tt-archiv/client/templates/about_page.html",
 		"/Users/tommi/Documents/thomastraum/sites/meteor/tt-archiv/client/templates/application/header.html",
 		"/Users/tommi/Documents/thomastraum/sites/meteor/tt-archiv/client/helpers/router.js",
@@ -813,9 +819,7 @@
 		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-content/plugins/tt_subscribers/tt_subscribers.php",
 		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-settings.php",
 		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-content/plugins/tt_index/js/tt_index.js",
-		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-content/themes/thomastraum-2015/page_about.php",
-		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-content/plugins/tt_ajax/css/lightbox.css",
-		"/private/etc/apache2/extra/httpd-vhosts.conf"
+		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-content/themes/thomastraum-2015/page_about.php"
 	],
 	"find":
 	{
@@ -838,6 +842,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"strike",
 			"decidePostType",
 			"ImagePost",
 			"post",
@@ -964,8 +969,7 @@
 			"entry-cont",
 			"readmore",
 			"entry-con",
-			"entry-conten",
-			"%"
+			"entry-conten"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1017,11 +1021,6 @@
 			"sheets":
 			[
 			]
-		},
-		{
-			"sheets":
-			[
-			]
 		}
 	],
 	"incremental_find":
@@ -1041,18 +1040,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.369172300629,
 			1.0
 		],
 		"rows":
