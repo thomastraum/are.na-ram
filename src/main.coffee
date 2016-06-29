@@ -10,6 +10,7 @@ $ ->
 postsHtml = ""
 
 parseResponse = (response) ->
+	console.log ('asdada')
 	renderPostType post for post in response
 
 renderPostType = (post) ->

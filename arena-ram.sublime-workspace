@@ -519,6 +519,46 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "readme.md",
+			"settings":
+			{
+				"buffer_size": 269,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 179,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 577,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/main.coffee",
+			"settings":
+			{
+				"buffer_size": 1242,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 775,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/User/openframeworks.sublime-build",
 	"command_palette":
@@ -692,6 +732,10 @@
 	},
 	"file_history":
 	[
+		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/main.js",
+		"/Users/tommi/.bash_profile",
+		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/nodemon.json",
+		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/arena-ram.sublime-project",
 		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/readme.md",
 		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/.gitignore",
 		"/Users/tommi/Documents/thomastraum/sites/meteor/tt-archiv/client/templates/about_page.html",
@@ -704,7 +748,6 @@
 		"/Volumes/TThunder/bitsync/tools/framesmissing.py",
 		"/Volumes/TThunder/bitsync/tools/framecheck.sh",
 		"/Users/tommi/Desktop/framesmissing.py",
-		"/Users/tommi/.bash_profile",
 		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-includes/SimplePie/Parse/Date.php",
 		"/Users/tommi/Documents/thomastraum/sites/meteor/meteor-c4d/server/server.js",
 		"/Users/tommi/Documents/thomastraum/sites/meteor/meteor-c4d/readme.md",
@@ -816,10 +859,7 @@
 		"/Users/tommi/Downloads/more/main.js",
 		"/Users/tommi/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-includes/theme-compat/footer.php",
-		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-content/plugins/tt_subscribers/tt_subscribers.php",
-		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-settings.php",
-		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-content/plugins/tt_index/js/tt_index.js",
-		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-content/themes/thomastraum-2015/page_about.php"
+		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-content/plugins/tt_subscribers/tt_subscribers.php"
 	],
 	"find":
 	{
@@ -1018,8 +1058,143 @@
 	"groups":
 	[
 		{
+			"selected": 4,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "readme.md",
+					"settings":
+					{
+						"buffer_size": 269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								268,
+								241
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								135,
+								135
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 577,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								344,
+								344
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/main.coffee",
+					"settings":
+					{
+						"buffer_size": 1242,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								219,
+								219
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 775,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								669,
+								674
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1073,6 +1248,14 @@
 		"selected_items":
 		[
 			[
+				"index.",
+				"index.html"
+			],
+			[
+				"main",
+				"src/main.coffee"
+			],
+			[
 				"head",
 				"client/templates/application/header.html"
 			],
@@ -1083,10 +1266,6 @@
 			[
 				"ro",
 				"client/helpers/router.js"
-			],
-			[
-				"main",
-				"client/main.js"
 			],
 			[
 				"hea",
@@ -1579,10 +1758,6 @@
 			[
 				"loop-wp",
 				"wp-content/plugins/tt_works/loop-works.php"
-			],
-			[
-				"userinf",
-				"client/views/user/user_info.html"
 			]
 		],
 		"width": 0.0
@@ -1607,6 +1782,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 228.0,
+	"side_bar_width": 153.0,
 	"status_bar_visible": true
 }
