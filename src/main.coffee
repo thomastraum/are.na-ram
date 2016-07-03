@@ -1,16 +1,25 @@
 $ ->
-	url = "http://api.are.na/v2/channels/arena-influences/contents?page=1&per=20"
-	
+	queryApi( buildQuery() )
+
+
+page = 1
+posts_per_page=2
+
+buildQuery = () ->
+	url = "http://api.are.na/v2/channels/arena-influences/contents?page=#{page}&per=#{posts_per_page}"
+
+queryApi =(url) ->
 	$.getJSON(url, (response) -> 
-		console.log('results received', response)
+		# console.log('results received', response)
 		parseResponse(response.contents)
 		renderPage(postsHtml)
+		renderFooter()
 	)
+
 
 postsHtml = ""
 
 parseResponse = (response) ->
-	console.log ('asdada')
 	renderPostType post for post in response
 
 renderPostType = (post) ->
@@ -45,3 +54,12 @@ renderMediaPost = (post) ->
 
 renderPage = (html)->
 	$('#posts-container').append(html)
+
+
+renderFooter = (page, posts_per_page) ->
+	html = ""
+	if page > 1
+		html = "<li><a id='prev' href='#''>Previous</a></li>"
+	html += "<li><a id='next' href='#''>Next</a></li>"
+
+	$('#pager').html(html)

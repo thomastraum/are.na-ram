@@ -6,7 +6,8 @@ module.exports = function(grunt) {
     connect: {
       server: {
         options: {
-          port: 9001
+          port: 9001,
+          base:'.'
         }
       }
     },
@@ -19,7 +20,7 @@ module.exports = function(grunt) {
     },
     watch: {
       scripts: {
-        files: ['**/*.coffee', '**/*.html'],
+        files: ['**/*.coffee', '*.html', '**/*.css'],
         tasks: ['coffee'],
         options: {
           livereload: {
