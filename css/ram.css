@@ -8,6 +8,10 @@ body {
   margin-bottom: 60px;
 }
 
+a,a:hover {
+  color:black; 
+}
+
 .footer {
   position:absolute;
   bottom:0;
@@ -30,6 +34,8 @@ body {
 
 .post {
 	padding: 5%;
+  height:100%;
+  width:auto;
 }
 
 .imagepost {
@@ -37,5 +43,5 @@ body {
 }
 
 .textpost {
-
+  
 }

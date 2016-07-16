@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="css/ram.css">
 </head>
 <body>
-	<div id="nav"><h1>Random <br>Access<br> Memory</h1></div>
+	<div id="nav"><a href="#"><h1>Random <br>Access<br> Memory</h1></a></div>
 	<div id="posts-container" class="container">
 		<!-- content goes here -->
 	</div>
@@ -30,7 +30,7 @@
 		<article id="postTemplate">
 			<div class="col-md-12">
 				<h1 id='titel'></h1>
-				<div id="mediacontainer"></div>
+				<div id="mediacontainer" class=""></div>
 			</div>
 		</article>
 
@@ -38,12 +38,19 @@
 			<img src="https://d2w9rnfcy7mm78.cloudfront.net/314421/large_582a1c222430fc9f49a68995a0dc6b91.jpg" class='img-responsive' />
 		</div>
 
-		<div id='textTemplate' class='post textpost col-md-10 col-md-offset-1'>
-			<p id="content"></p>
+		<div id='textTemplate' class='post textpost col-md-1'>
+			<p id="content" class="lead"></p>
 		</div>
 
 		<div id='mediaTemplate' class='col-md-6 col-md-offset-3'>
 			<div id="video"></div>
+		</div>
+
+		<div id="footer">
+			<ul>
+				<li><a id='prev' href='#''>Previous</a></li>
+				<li><a id='next' href='#''>Next</a></li>
+			</ul>
 		</div>
 	</div>
 </body>

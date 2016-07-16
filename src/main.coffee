@@ -1,76 +1,96 @@
 $ ->
-	loadPosts( buildQuery() )
+	nextPage()
 
-
-page = 1
+page = 0
+posts = []
 posts_per_page=15
+loading = false
+
+nextPage = () ->
+	page++
+	loadPosts(buildQuery())
 
 buildQuery = () ->
-	url = "http://api.are.na/v2/channels/arena-influences/contents?page=#{page}&per=#{posts_per_page}"
+	# url = "http://api.are.na/v2/channels/arena-influences/contents?page=#{page}&per=#{posts_per_page}"
+	url = "http://api.are.na/v2/channels/random-access-memory/contents?page=#{page}&per=#{posts_per_page}"
+	# url = "http://api.are.na/v2/channels/ttext/contents?page=#{page}&per=#{posts_per_page}"
 
 loadPosts =(url) ->
 	$.getJSON(url, (response) -> 
-		# console.log('results received', response)
+		console.log('results received', response)
 		# parseResponse(response.contents)
+		# posts = response.contents
 		addPost post for post in response.contents
 		# renderPage(postsHtml)
-		renderFooter()
+		# updateFooter()
+		loading = false
 	)
 
 addPost = (post) ->
 
 	template = getTemplate "#postTemplate"
-	console.log template
 	template.attr("id", post.id)
-	$("#titel", template).html(post.generated_title)
 
 	mediacontainer = $("#mediacontainer", template);
 	switch post.class
 		when "Image"
-			addImagePost post, mediacontainer
+			mediacontainer.html( addImagePost post )
 		when "Text"
-			addTextPost post, mediacontainer
+			# $("#titel", template).html(post.generated_title)
+			mediacontainer.html( addTextPost post )
 		when "Media"
-			addMediaPost post, mediacontainer
+			mediacontainer.html( addMediaPost post )
 		else
 			console.log "unknown post type", post.class, post
 
+	posts.push post
 	$("#posts-container").append(template)
 
-
-
-addImagePost = (post, container) ->
-	# console.log "image post", post.image
+addImagePost = (post) ->
 	imageTemplate = getTemplate "#imageTemplate"
 	$("img", imageTemplate).attr("src", post.image.large.url)
-	container.html(imageTemplate)
 
-addTextPost = (post, container) ->
+addTextPost = (post) ->
 	textTemplate = getTemplate "#textTemplate"
 	$("#content", textTemplate).html(post.content_html)
-	container.html(textTemplate)
 
-addMediaPost = (post, container) ->
+addMediaPost = (post) ->
 	mediaTemplate = getTemplate "#mediaTemplate"
 	$("#video", mediaTemplate).html(post.embed.html)
-	container.html(mediaTemplate)
-	# console.log "media post", post.embed
-	# html = "<div id='#{post.id}' class='col-md-6 col-md-offset-3'>
-		# 	#{post.embed.html}
-		# </div>"
 
-
-renderFooter = (page, posts_per_page) ->
-	html = ""
-	if page > 1
-		html = "<li><a id='prev' href='#''>Previous</a></li>"
-	html += "<li><a id='next' href='#''>Next</a></li>"
-
+updateFooter = (page, posts_per_page) ->
+	footerTemplate = getTemplate "#footer"
+	if page <=2
+		$('#prev').hide()
+	else
+		$('#prev').show()
 	$('#pager').html(html)
 
 
 # Helpers
-
 getTemplate = (type) ->
 	template = $(type).clone();
 	template.attr("id", null);
+
+# infinite scrolling
+window.addEventListener "scroll", (e) => 
+
+	if posts.length 
+		scrollTop = $(window).scrollTop();
+		docHeight = $(document).height();
+		winHeight = $(window).height();
+		dif = docHeight - winHeight;
+
+		if scrollTop > dif - winHeight * 2
+			unless loading
+				loading = true
+				nextPage()
+				console.log 'sex'
+		
+		# if scrollTop > dif - winHeight * 2
+			# if (actualcount == posts.length)
+			# 	console.log("no more posts");
+			# else {
+			# 	var post = posts[actualcount++];
+			# 	addPost(post);
+			# }
