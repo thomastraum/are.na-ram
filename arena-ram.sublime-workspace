@@ -531,7 +531,7 @@
 			"file": "css/ram.css",
 			"settings":
 			{
-				"buffer_size": 472,
+				"buffer_size": 524,
 				"line_ending": "Windows"
 			}
 		},
@@ -539,16 +539,8 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1735,
+				"buffer_size": 1584,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/user/Desktop/__schnitzel.txt",
-			"settings":
-			{
-				"buffer_size": 603,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -747,10 +739,11 @@
 	],
 	"file_history":
 	[
+		"/C/Users/user/Documents/are.na-ram/index.html",
+		"/C/Users/user/Desktop/__schnitzel.txt",
 		"/C/Users/user/Documents/are.na-ram/css/ram.css",
 		"/C/Users/user/Documents/are.na-ram/lib/main.js",
 		"/C/Users/user/Documents/are.na-ram/Gruntfile.js",
-		"/C/Users/user/Documents/are.na-ram/index.html",
 		"/C/Users/user/Documents/are.na-ram/src/main.coffee",
 		"/C/Users/user/Documents/are.na-ram/package.json",
 		"/C/Users/user/Documents/are.na-ram/readme.md",
@@ -873,8 +866,7 @@
 		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/.gitignore",
 		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-content/plugins/tt_news/tt_news-single.inc.php",
 		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-content/plugins/tt_news/tt_news.php",
-		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-includes/theme-compat/header.php",
-		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-content/themes/thomastraum-2015/css/ios.css"
+		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-includes/theme-compat/header.php"
 	],
 	"find":
 	{
@@ -897,6 +889,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"article",
+			"nextPage",
 			"p",
 			"renderFooter",
 			"container",
@@ -1022,9 +1016,7 @@
 			"column",
 			"twttr",
 			"column",
-			"666",
-			"h1",
-			"loadingGif"
+			"666"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1073,7 +1065,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -1089,8 +1081,8 @@
 						"selection":
 						[
 							[
-								168,
-								168
+								673,
+								673
 							]
 						],
 						"settings":
@@ -1099,7 +1091,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 57.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -1111,15 +1103,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 472,
+						"buffer_size": 524,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								153,
-								153
+								309,
+								309
 							]
 						],
 						"settings":
@@ -1133,64 +1125,30 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 2,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1735,
+						"buffer_size": 1584,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1082,
-								1082
+								1223,
+								1223
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 19.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Users/user/Desktop/__schnitzel.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 603,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1219,18 +1177,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -1266,12 +1217,12 @@
 		"selected_items":
 		[
 			[
-				".css",
-				"css\\ram.css"
-			],
-			[
 				"index.",
 				"index.html"
+			],
+			[
+				".css",
+				"css\\ram.css"
 			],
 			[
 				"main",
@@ -1806,7 +1757,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
