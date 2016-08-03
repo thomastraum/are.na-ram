@@ -11,8 +11,8 @@ nextPage = () ->
 	loadPosts(buildQuery())
 
 buildQuery = () ->
-	# url = "http://api.are.na/v2/channels/arena-influences/contents?page=#{page}&per=#{posts_per_page}"
-	url = "http://api.are.na/v2/channels/random-access-memory/contents?page=#{page}&per=#{posts_per_page}"
+	url = "http://api.are.na/v2/channels/arena-influences/contents?page=#{page}&per=#{posts_per_page}"
+	# url = "http://api.are.na/v2/channels/random-access-memory/contents?page=#{page}&per=#{posts_per_page}"
 	# url = "http://api.are.na/v2/channels/ttext/contents?page=#{page}&per=#{posts_per_page}"
 
 loadPosts =(url) ->
@@ -49,14 +49,18 @@ addPost = (post) ->
 addImagePost = (post) ->
 	imageTemplate = getTemplate "#imageTemplate"
 	$("img", imageTemplate).attr("src", post.image.large.url)
+	return imageTemplate
 
 addTextPost = (post) ->
 	textTemplate = getTemplate "#textTemplate"
+	$("#title", textTemplate).text(post.generated_title)
 	$("#content", textTemplate).html(post.content_html)
+	return textTemplate
 
 addMediaPost = (post) ->
 	mediaTemplate = getTemplate "#mediaTemplate"
 	$("#video", mediaTemplate).html(post.embed.html)
+	return mediaTemplate
 
 updateFooter = (page, posts_per_page) ->
 	footerTemplate = getTemplate "#footer"

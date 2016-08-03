@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"textTemplate"
+			],
+			[
+				"conte",
+				"contents"
+			],
+			[
 				"a",
 				"address	Tag"
 			],
@@ -65,10 +73,6 @@
 			],
 			[
 				"tex",
-				"text-decoration"
-			],
-			[
-				"text",
 				"text-decoration"
 			],
 			[
@@ -510,59 +514,70 @@
 			[
 				"pad",
 				"padding"
-			],
-			[
-				"to",
-				"toJSON"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "src/main.coffee",
+			"file": "css/ram.css",
 			"settings":
 			{
-				"buffer_size": 2383,
+				"buffer_size": 515,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "css/ram.css",
+			"file": "src/main.coffee",
 			"settings":
 			{
-				"buffer_size": 472,
-				"line_ending": "Windows"
+				"buffer_size": 2502,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1735,
+				"buffer_size": 1741,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/user/Desktop/__schnitzel.txt",
+			"file": "Gruntfile.js",
 			"settings":
 			{
-				"buffer_size": 603,
+				"buffer_size": 915,
 				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "Packages/User/openframeworks.sublime-build",
-	"build_system_choices":
-	[
-	],
-	"build_varint": "",
 	"command_palette":
 	{
-		"height": 104.0,
-		"last_filter": "wrap",
+		"height": 400.0,
 		"selected_items":
 		[
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Discover Packages"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
 			[
 				"wrap",
 				"HTML: Wrap Selection With Tag"
@@ -574,10 +589,6 @@
 			[
 				"coff",
 				"Coffee: Goto Definition"
-			],
-			[
-				"packa",
-				"Package Control: Install Package"
 			],
 			[
 				"mardk",
@@ -614,10 +625,6 @@
 			[
 				"pac",
 				"Package Control: List Packages"
-			],
-			[
-				"instal",
-				"Package Control: Install Package"
 			],
 			[
 				"tid",
@@ -720,15 +727,11 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 718.0
 	},
 	"console":
 	{
-		"height": 125.0,
-		"history":
-		[
-			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
-		]
+		"height": 125.0
 	},
 	"distraction_free":
 	{
@@ -739,14 +742,9 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/Users/user/Documents/are.na-ram",
-		"/C/Users/user/Documents/are.na-ram/lib",
-		"/C/Users/user/Documents/are.na-ram/src"
-	],
 	"file_history":
 	[
+		"/C/Users/user/Desktop/__schnitzel.txt",
 		"/C/Users/user/Documents/are.na-ram/css/ram.css",
 		"/C/Users/user/Documents/are.na-ram/lib/main.js",
 		"/C/Users/user/Documents/are.na-ram/Gruntfile.js",
@@ -873,8 +871,7 @@
 		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/.gitignore",
 		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-content/plugins/tt_news/tt_news-single.inc.php",
 		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-content/plugins/tt_news/tt_news.php",
-		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-includes/theme-compat/header.php",
-		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-content/themes/thomastraum-2015/css/ios.css"
+		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-includes/theme-compat/header.php"
 	],
 	"find":
 	{
@@ -897,6 +894,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"article",
+			"generated_title",
 			"p",
 			"renderFooter",
 			"container",
@@ -1022,9 +1021,7 @@
 			"column",
 			"twttr",
 			"column",
-			"666",
-			"h1",
-			"loadingGif"
+			"666"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1073,59 +1070,28 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/main.coffee",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2383,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								168,
-								168
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 57.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "css/ram.css",
-					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 472,
+						"buffer_size": 515,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								153,
-								153
+								150,
+								150
 							]
 						],
 						"settings":
 						{
 							"history_list_is_closing": true,
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1133,51 +1099,68 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 2,
-					"file": "index.html",
-					"semi_transient": false,
+					"buffer": 1,
+					"file": "src/main.coffee",
 					"settings":
 					{
-						"buffer_size": 1735,
+						"buffer_size": 2502,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1082,
-								1082
+								1716,
+								1716
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 19.0,
+						"translation.y": 424.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1741,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1070,
+								1070
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "/C/Users/user/Desktop/__schnitzel.txt",
-					"semi_transient": false,
+					"file": "Gruntfile.js",
 					"settings":
 					{
-						"buffer_size": 603,
+						"buffer_size": 915,
 						"regions":
 						{
 						},
@@ -1190,13 +1173,14 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1219,18 +1203,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -1252,8 +1229,6 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
-	"project": "arena-ram.sublime-project",
 	"replace":
 	{
 		"height": 50.0
@@ -1262,9 +1237,12 @@
 	"select_file":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"grun",
+				"Gruntfile.js"
+			],
 			[
 				".css",
 				"css\\ram.css"
@@ -1772,10 +1750,6 @@
 			[
 				"funtt",
 				"wp-content/themes/thomastraum-2011/functions-tt.php"
-			],
-			[
-				"loop-wp",
-				"wp-content/plugins/tt_works/loop-works.php"
 			]
 		],
 		"width": 0.0
@@ -1783,7 +1757,6 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -1797,26 +1770,10 @@
 		],
 		"width": 380.0
 	},
-	"select_symbol":
-	{
-		"height": 0.0,
-		"last_filter": "",
-		"selected_items":
-		[
-		],
-		"width": 0.0
-	},
-	"selected_group": 1,
-	"settings":
-	{
-	},
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 153.0,
-	"status_bar_visible": true,
-	"template_settings":
-	{
-	}
+	"side_bar_width": 227.0,
+	"status_bar_visible": true
 }
