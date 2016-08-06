@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"css",
+				"bootstrap.min.css"
+			],
+			[
 				"text",
 				"textTemplate"
 			],
@@ -510,45 +514,17 @@
 			[
 				"b",
 				"bottom"
-			],
-			[
-				"pad",
-				"padding"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "css/ram.css",
-			"settings":
-			{
-				"buffer_size": 515,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/main.coffee",
-			"settings":
-			{
-				"buffer_size": 2502,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1741,
+				"buffer_size": 1786,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Gruntfile.js",
-			"settings":
-			{
-				"buffer_size": 915,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -559,12 +535,16 @@
 		"selected_items":
 		[
 			[
-				"brows",
-				"Preferences: Browse Packages"
-			],
-			[
 				"ins",
 				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
 			],
 			[
 				"packa",
@@ -581,10 +561,6 @@
 			[
 				"wrap",
 				"HTML: Wrap Selection With Tag"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"coff",
@@ -727,7 +703,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 718.0
+		"width": 457.0
 	},
 	"console":
 	{
@@ -744,6 +720,12 @@
 	},
 	"file_history":
 	[
+		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/css/ram.css",
+		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/Gruntfile.js",
+		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/css/bootstrap/dist/css/bootstrap.min.css",
+		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/css/bootstrap-theme.min.css",
+		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/src/main.coffee",
+		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/.gitignore",
 		"/C/Users/user/Desktop/__schnitzel.txt",
 		"/C/Users/user/Documents/are.na-ram/css/ram.css",
 		"/C/Users/user/Documents/are.na-ram/lib/main.js",
@@ -757,7 +739,6 @@
 		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/nodemon.json",
 		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/arena-ram.sublime-project",
 		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/readme.md",
-		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/.gitignore",
 		"/Users/tommi/Documents/thomastraum/sites/meteor/tt-archiv/client/templates/about_page.html",
 		"/Users/tommi/Documents/thomastraum/sites/meteor/tt-archiv/client/templates/application/header.html",
 		"/Users/tommi/Documents/thomastraum/sites/meteor/tt-archiv/client/helpers/router.js",
@@ -866,12 +847,7 @@
 		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-content/themes/thomastraum-2015/footer.php",
 		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-content/plugins/tt_subscribers/tt_subscribers.css",
 		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-content/plugins/tt-update-ram-status/tt-update-ram-status.php",
-		"/etc/hosts",
-		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-content/themes/thomastraum-2015/style.css",
-		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/.gitignore",
-		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-content/plugins/tt_news/tt_news-single.inc.php",
-		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-content/plugins/tt_news/tt_news.php",
-		"/Users/tommi/Documents/thomastraum/sites/thomastraum.com/wp-includes/theme-compat/header.php"
+		"/etc/hosts"
 	],
 	"find":
 	{
@@ -1070,78 +1046,23 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "css/ram.css",
-					"settings":
-					{
-						"buffer_size": 515,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								150,
-								150
-							]
-						],
-						"settings":
-						{
-							"history_list_is_closing": true,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/main.coffee",
-					"settings":
-					{
-						"buffer_size": 2502,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1716,
-								1716
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 424.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1741,
+						"buffer_size": 1786,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1070,
-								1070
+								1387,
+								1387
 							]
 						],
 						"settings":
@@ -1150,35 +1071,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "Gruntfile.js",
-					"settings":
-					{
-						"buffer_size": 915,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 153.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1239,6 +1132,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"",
+				"css/ram.css"
+			],
 			[
 				"grun",
 				"Gruntfile.js"
@@ -1570,10 +1467,6 @@
 			[
 				"all",
 				"client/templates/application_layout.html"
-			],
-			[
-				"",
-				"server/server.js"
 			],
 			[
 				"ta",

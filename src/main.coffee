@@ -1,9 +1,14 @@
 $ ->
 	nextPage()
 
-page = 0
+
 posts = []
-posts_per_page=15
+# Attributes
+page = 0
+direction = "desc"
+posts_per_page = 15
+
+# state
 loading = false
 
 nextPage = () ->
@@ -11,9 +16,9 @@ nextPage = () ->
 	loadPosts(buildQuery())
 
 buildQuery = () ->
-	url = "http://api.are.na/v2/channels/arena-influences/contents?page=#{page}&per=#{posts_per_page}"
-	# url = "http://api.are.na/v2/channels/random-access-memory/contents?page=#{page}&per=#{posts_per_page}"
-	# url = "http://api.are.na/v2/channels/ttext/contents?page=#{page}&per=#{posts_per_page}"
+	# url = "http://api.are.na/v2/channels/arena-influences/contents?page=#{page}&per=#{posts_per_page}&direction=#{direction}"
+	url = "http://api.are.na/v2/channels/random-access-memory/contents?page=#{page}&per=#{posts_per_page}&direction=#{direction}"
+	# url = "http://api.are.na/v2/channels/ttext/contents?page=#{page}&per=#{posts_per_page}&direction=#{direction}"
 
 loadPosts =(url) ->
 	$.getJSON(url, (response) -> 
@@ -59,6 +64,7 @@ addTextPost = (post) ->
 
 addMediaPost = (post) ->
 	mediaTemplate = getTemplate "#mediaTemplate"
+	$("#title", mediaTemplate).text(post.generated_title)
 	$("#video", mediaTemplate).html(post.embed.html)
 	return mediaTemplate
 
