@@ -1,33 +1,33 @@
 $ ->
 	nextPage()
 
+settings = 
+	channelslug : "random-access-memory"
+	# channelslug : "arena-influences"
+	# channelslug : "ttext"
 
 posts = []
-# Attributes
-page = 0
-direction = "desc"
-posts_per_page = 15
+
+queryOptions = 
+	page: 0
+	direction: "desc"
+	sort: "position"
+	per: 6 
 
 # state
 loading = false
 
 nextPage = () ->
-	page++
+	queryOptions.page++
 	loadPosts(buildQuery())
 
 buildQuery = () ->
-	# url = "http://api.are.na/v2/channels/arena-influences/contents?page=#{page}&per=#{posts_per_page}&direction=#{direction}"
-	url = "http://api.are.na/v2/channels/random-access-memory/contents?page=#{page}&per=#{posts_per_page}&direction=#{direction}"
-	# url = "http://api.are.na/v2/channels/ttext/contents?page=#{page}&per=#{posts_per_page}&direction=#{direction}"
+	query = "https://api.are.na/v2/channels/#{settings.channelslug}/contents?#{$.param(queryOptions)}"
 
 loadPosts =(url) ->
 	$.getJSON(url, (response) -> 
-		console.log('results received', response)
-		# parseResponse(response.contents)
-		# posts = response.contents
+		# console.log('results received', response)
 		addPost post for post in response.contents
-		# renderPage(postsHtml)
-		# updateFooter()
 		loading = false
 	)
 
@@ -53,7 +53,7 @@ addPost = (post) ->
 
 addImagePost = (post) ->
 	imageTemplate = getTemplate "#imageTemplate"
-	$("img", imageTemplate).attr("src", post.image.large.url)
+	$("img", imageTemplate).attr("src", post.image.original.url)
 	return imageTemplate
 
 addTextPost = (post) ->
@@ -95,12 +95,3 @@ window.addEventListener "scroll", (e) =>
 			unless loading
 				loading = true
 				nextPage()
-				console.log 'sex'
-		
-		# if scrollTop > dif - winHeight * 2
-			# if (actualcount == posts.length)
-			# 	console.log("no more posts");
-			# else {
-			# 	var post = posts[actualcount++];
-			# 	addPost(post);
-			# }

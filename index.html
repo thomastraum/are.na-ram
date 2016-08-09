@@ -11,18 +11,18 @@
 </head>
 <body>
 	<div id="nav"><a href="#"><h1>Random <br>Access<br> Memory</h1></a></div>
-	<div id="posts-container" class="container">
+	<div id="posts-container" class="container-fluid">
 		<!-- content goes here -->
 	</div>
-	<footer id="footer" class="footer">
-		<div class="container">
-			<nav>
-			  <ul id="pager" class="pager">
-			  	<!--  footer js -->
-			  </ul>
-			</nav>
-		</div>
-	</footer>
+
+	<a href="" class="cd-top"><h1>Top</h1></a>
+
+   <footer class="footer">
+      <div class="container">
+        <p ><small>&copy; TRAUM INC</small></p>
+      </div>
+    </footer>
+
 	<script src="//localhost:9000/livereload.js"></script>
 	<!-- TEMPLATES -->
 	<div style="display: none">
@@ -37,21 +37,14 @@
 			<img src="https://d2w9rnfcy7mm78.cloudfront.net/314421/large_582a1c222430fc9f49a68995a0dc6b91.jpg" class='img-responsive' />
 		</div>
 
-		<div id='textTemplate' class='post textpost'>
+		<div id='textTemplate' class='col-md-8'>
 			<h1 id='title'></h1>
-			<p id="content" class="lead"></p>
+			<p id="content" class=""></p>
 		</div>
 
 		<div id='mediaTemplate' class='col-md-12'>
 			<h1 id='title'></h1>
-			<div id="video"></div>
-		</div>
-
-		<div id="footer">
-			<ul>
-				<li><a id='prev' href='#'>Previous</a></li>
-				<li><a id='next' href='#'>Next</a></li>
-			</ul>
+			<div id="video" class="embed-responsive embed-responsive-16by9"></div>
 		</div>
 	</div>
 </body>
