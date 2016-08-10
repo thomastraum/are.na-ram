@@ -10,7 +10,12 @@
 	<link rel="stylesheet" type="text/css" href="css/ram.css">
 </head>
 <body>
-	<div id="nav"><a href="#"><h1>Random <br>Access<br> Memory</h1></a></div>
+	<div id="nav"><div class="container-fluid"><a href="#"><h1>Random <br>Access<br> Memory</h1></a></div></div>
+
+	<div id="loading" class="center-block">
+		<h1>LOADING</h1>
+	</div>
+
 	<div id="posts-container" class="container-fluid">
 		<!-- content goes here -->
 	</div>
@@ -27,22 +32,23 @@
 	<!-- TEMPLATES -->
 	<div style="display: none">
 
+
 		<div id="postTemplate" class="post">
 			<div class="col-md-12">
 				<div id="mediacontainer" class="post"></div>
 			</div>
 		</div>
 
-		<div id='imageTemplate' class='post imagepost col-md-12'>
+		<div id='imageTemplate' class='post imagepost col-md-11 col-md-offset-1'>
 			<img src="https://d2w9rnfcy7mm78.cloudfront.net/314421/large_582a1c222430fc9f49a68995a0dc6b91.jpg" class='img-responsive' />
 		</div>
 
-		<div id='textTemplate' class='col-md-8'>
+		<div id='textTemplate' class='col-md-8 col-md-offset-1'>
 			<h1 id='title'></h1>
-			<p id="content" class=""></p>
+			<p id="content" class="lead"></p>
 		</div>
 
-		<div id='mediaTemplate' class='col-md-12'>
+		<div id='mediaTemplate' class='col-md-11 col-md-offset-1'>
 			<h1 id='title'></h1>
 			<div id="video" class="embed-responsive embed-responsive-16by9"></div>
 		</div>

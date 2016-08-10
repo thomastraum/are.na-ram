@@ -523,7 +523,7 @@
 			"file": "css/ram.css",
 			"settings":
 			{
-				"buffer_size": 1283,
+				"buffer_size": 1301,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +531,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1697,
+				"buffer_size": 1679,
 				"line_ending": "Windows"
 			}
 		},
@@ -902,6 +902,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ima",
+			"2",
+			"col-md",
 			"now",
 			"small",
 			"channelSlug",
@@ -1026,10 +1029,7 @@
 			"D2B3A0",
 			"DBB69F",
 			"A2BEDC",
-			"A0CBDD",
-			"FFF",
-			"C4C4C4",
-			"viewport"
+			"A0CBDD"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1086,15 +1086,15 @@
 					"file": "css/ram.css",
 					"settings":
 					{
-						"buffer_size": 1283,
+						"buffer_size": 1301,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								363,
-								363
+								579,
+								579
 							]
 						],
 						"settings":
@@ -1104,7 +1104,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 345.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1114,15 +1114,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1697,
+						"buffer_size": 1679,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1597,
-								1597
+								1211,
+								1211
 							]
 						],
 						"settings":
@@ -1131,7 +1131,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 68.0,
+						"translation.y": 83.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1148,8 +1148,8 @@
 						"selection":
 						[
 							[
-								103,
-								103
+								1220,
+								1220
 							]
 						],
 						"settings":
@@ -1158,7 +1158,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 526.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1181,7 +1181,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

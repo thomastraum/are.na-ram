@@ -25,10 +25,16 @@ buildQuery = () ->
 	query = "https://api.are.na/v2/channels/#{settings.channelslug}/contents?#{$.param(queryOptions)}"
 
 loadPosts =(url) ->
+	$("#loading").addClass "is-visible"
 	$.getJSON(url, (response) -> 
 		# console.log('results received', response)
 		addPost post for post in response.contents
 		loading = false
+		$("#loading").removeClass "is-visible"
+						.addClass "not-visible"
+	).fail((jqxhr, textStatus, error) ->
+		console.log textStatus
+		$("#loading > h1").text "#{textStatus}, #{error}"
 	)
 
 addPost = (post) ->
@@ -58,7 +64,8 @@ addImagePost = (post) ->
 
 addTextPost = (post) ->
 	textTemplate = getTemplate "#textTemplate"
-	$("#title", textTemplate).text(post.generated_title)
+	unless post.generated_title == "Untitled"
+		$("#title", textTemplate).text(post.generated_title)
 	$("#content", textTemplate).html(post.content_html)
 	return textTemplate
 
