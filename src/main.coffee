@@ -22,7 +22,7 @@ nextPage = () ->
 	loadPosts(buildQuery())
 
 buildQuery = () ->
-	query = "https://api.are.na/v2/channels/#{settings.channelslug}/contents?#{$.param(queryOptions)}"
+	query = "http://api.are.na/v2/channels/#{settings.channelslug}/contents?#{$.param(queryOptions)}"
 
 loadPosts =(url) ->
 	$("#loading").addClass "is-visible"
