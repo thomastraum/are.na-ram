@@ -31,9 +31,10 @@ a,a:hover {
 	padding:1% 2%;
 }
 
-#nav h1{
+#brand{
 	/*font-weight: bold;*/
 	text-transform: uppercase;
+  line-height: 1em;
 }
 
 #loading {

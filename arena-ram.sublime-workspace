@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"l",
+				"loading"
+			],
+			[
+				"text",
+				"text"
+			],
+			[
 				"back",
 				"backtotop"
 			],
@@ -14,10 +22,6 @@
 			[
 				"css",
 				"bootstrap.min.css"
-			],
-			[
-				"text",
-				"textTemplate"
 			],
 			[
 				"conte",
@@ -510,10 +514,6 @@
 			[
 				"scroll",
 				"scrollpos"
-			],
-			[
-				"b",
-				"bottom"
 			]
 		]
 	},
@@ -523,7 +523,7 @@
 			"file": "css/ram.css",
 			"settings":
 			{
-				"buffer_size": 1301,
+				"buffer_size": 1761,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +531,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1679,
+				"buffer_size": 1855,
 				"line_ending": "Windows"
 			}
 		},
@@ -539,7 +539,7 @@
 			"file": "src/main.coffee",
 			"settings":
 			{
-				"buffer_size": 2215,
+				"buffer_size": 2482,
 				"line_ending": "Unix"
 			}
 		},
@@ -556,6 +556,14 @@
 			"settings":
 			{
 				"buffer_size": 915,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 286,
 				"line_ending": "Unix"
 			}
 		}
@@ -902,6 +910,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"3s",
 			"ima",
 			"2",
 			"col-md",
@@ -1028,8 +1037,7 @@
 			"D2BCAF",
 			"D2B3A0",
 			"DBB69F",
-			"A2BEDC",
-			"A0CBDD"
+			"A2BEDC"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1086,15 +1094,15 @@
 					"file": "css/ram.css",
 					"settings":
 					{
-						"buffer_size": 1301,
+						"buffer_size": 1761,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								579,
-								579
+								531,
+								531
 							]
 						],
 						"settings":
@@ -1104,7 +1112,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 345.0,
+						"translation.y": 155.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1114,15 +1122,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1679,
+						"buffer_size": 1855,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1211,
-								1211
+								736,
+								736
 							]
 						],
 						"settings":
@@ -1131,7 +1139,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 83.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1141,15 +1149,15 @@
 					"file": "src/main.coffee",
 					"settings":
 					{
-						"buffer_size": 2215,
+						"buffer_size": 2482,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1220,
-								1220
+								479,
+								479
 							]
 						],
 						"settings":
@@ -1158,7 +1166,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 526.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1211,6 +1219,33 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								194,
+								194
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1274,6 +1309,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"pack",
+				"package.json"
+			],
 			[
 				"",
 				"package.json"
@@ -1781,10 +1820,6 @@
 			[
 				"layout.",
 				"wp-content/themes/thomastraum-2015/css/layout.css"
-			],
-			[
-				"de",
-				"wp-content/debug.log"
 			]
 		],
 		"width": 0.0
