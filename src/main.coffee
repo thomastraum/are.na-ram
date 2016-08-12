@@ -33,7 +33,8 @@ loadPosts =(url) ->
 		$("#loading").removeClass "is-visible"
 						.addClass "not-visible"
 	).fail((jqxhr, textStatus, error) ->
-		console.log textStatus
+		console.log jqxhr, textStatus, error
+		console.log jqxhr.statusCode()
 		$("#loading > h1").text "#{textStatus}, #{error}"
 	)
 
