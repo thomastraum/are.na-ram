@@ -40,7 +40,7 @@ a,a:hover {
 #loading {
   position: fixed;
   padding:25% 38%;
-  z-index: 1;
+  z-index: 999;
   text-align: center;
   visibility: hidden;
   opacity: 0;
@@ -48,6 +48,7 @@ a,a:hover {
   -moz-transition: opacity 1.3s 0s, visibility 0s 1.3s;
   transition: opacity 1.3s 0s, visibility 0s 1.3s;
 }
+
 #loading.is-visible {
   /* the button becomes visible */
   visibility: visible;
@@ -92,3 +93,17 @@ a,a:hover {
   visibility: visible;
   opacity: 1;
 }
+
+@media (max-width:768px){
+  h1 {
+    font-size: 75%
+  }
+}
+
+@media (max-width:992px){
+  h1 {
+    font-size: 90%
+  }
+}
+
+

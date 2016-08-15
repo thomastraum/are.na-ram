@@ -25,7 +25,10 @@ buildQuery = () ->
 	query = "http://api.are.na/v2/channels/#{settings.channelslug}/contents?#{$.param(queryOptions)}"
 
 loadPosts =(url) ->
-	$("#loading").addClass "is-visible"
+	
+	$("#loading").removeClass "not-visible"
+					.addClass "is-visible"
+
 	$.getJSON(url, (response) -> 
 		# console.log('results received', response)
 		addPost post for post in response.contents
