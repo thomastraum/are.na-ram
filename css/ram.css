@@ -36,7 +36,9 @@ a,a:hover {
 	/*font-weight: bold;*/
 	text-transform: uppercase;
   line-height: 1em;
+  text-decoration: none;
 }
+
 
 #loading {
   position: fixed;
