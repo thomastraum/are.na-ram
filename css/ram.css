@@ -9,7 +9,8 @@ body {
 }
 
 a,a:hover {
-  color:black; 
+  color:black;
+  text-decoration: underline;
 }
 
 .footer {

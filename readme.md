@@ -1,10 +1,9 @@
 # About 
 
-connects to are.na api and displays content as a blog
+connects to are.na api and displays content as a blog. 
+[ram.thomastraum.com](http://ram.thomastraum.com)
 
 #Notes
-
-https://paper.dropbox.com/doc/ARE.NA-RAM-Dev-notes-eiN6rSLQhOX9pRxQyRCVV
 
 
 # Setup
