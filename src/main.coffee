@@ -52,6 +52,8 @@ addPost = (post) ->
 			mediacontainer.html( addTextPost post )
 		when "Media"
 			mediacontainer.html( addMediaPost post )
+		when "Link"
+			mediacontainer.html( addLinkPost post )
 		else
 			console.log "unknown post type", post.class, post
 
@@ -75,6 +77,13 @@ addMediaPost = (post) ->
 	$("#title", mediaTemplate).text(post.generated_title)
 	$("#video", mediaTemplate).html(post.embed.html)
 	return mediaTemplate
+
+addLinkPost = (post) ->
+	template = getTemplate "#linkTemplate"
+	$("#content", template).html(post.description_html)
+	$("a", template).text(post.generated_title)
+					.attr("href", post.source.url)
+	return template
 
 updateFooter = (page, posts_per_page) ->
 	footerTemplate = getTemplate "#footer"
