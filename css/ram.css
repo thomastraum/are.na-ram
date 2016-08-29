@@ -118,7 +118,10 @@ a,a:hover {
       font-size: 60%
     }
 
-  }
+
+    .post {
+      padding: 1% 0%;
+    }
 
   @media (max-width:992px){
 /*  h1 {
