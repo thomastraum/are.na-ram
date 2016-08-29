@@ -25,7 +25,7 @@ buildQuery = () ->
 	query = "http://api.are.na/v2/channels/#{settings.channelslug}/contents?#{$.param(queryOptions)}"
 
 loadPosts =(url) ->
-	
+
 	$("#loading").removeClass "not-visible"
 					.addClass "is-visible"
 
@@ -88,15 +88,6 @@ addLinkPost = (post) ->
 					.attr("href", post.source.url)
 	return template
 
-updateFooter = (page, posts_per_page) ->
-	footerTemplate = getTemplate "#footer"
-	if page <=2
-		$('#prev').hide()
-	else
-		$('#prev').show()
-	$('#pager').html(html)
-
-
 # Helpers
 getTemplate = (type) ->
 	template = $(type).clone();
@@ -106,9 +97,9 @@ getTemplate = (type) ->
 window.addEventListener "scroll", (e) => 
 
 	if posts.length 
-		scrollTop = $(window).scrollTop();
-		docHeight = $(document).height();
-		winHeight = $(window).height();
+		scrollTop = $(window).scrollTop()
+		docHeight = $(document).height()
+		winHeight = $(window).height()
 		dif = docHeight - winHeight;
 
 		if scrollTop > dif - winHeight * 2

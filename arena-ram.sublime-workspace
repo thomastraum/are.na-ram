@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"remo",
+				"removeClass"
+			],
+			[
 				"l",
 				"loading"
 			],
@@ -316,10 +320,6 @@
 				"viewType"
 			],
 			[
-				"remo",
-				"remove	Meteor: collection.remove(selector, [callback])"
-			],
-			[
 				"U",
 				"UploadProgress"
 			],
@@ -523,7 +523,7 @@
 			"file": "css/ram.css",
 			"settings":
 			{
-				"buffer_size": 1780,
+				"buffer_size": 1959,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +531,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2376,
+				"buffer_size": 2506,
 				"line_ending": "Windows"
 			}
 		},
@@ -539,7 +539,7 @@
 			"file": "src/main.coffee",
 			"settings":
 			{
-				"buffer_size": 2528,
+				"buffer_size": 2666,
 				"line_ending": "Unix"
 			}
 		},
@@ -571,9 +571,13 @@
 	"build_system": "Packages/User/openframeworks.sublime-build",
 	"command_palette":
 	{
-		"height": 400.0,
+		"height": 237.0,
 		"selected_items":
 		[
+			[
+				"mark pre",
+				"Markdown Preview: Preview in Browser"
+			],
 			[
 				"ins",
 				"Package Control: Install Package"
@@ -743,7 +747,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 718.0
+		"width": 583.0
 	},
 	"console":
 	{
@@ -760,6 +764,7 @@
 	},
 	"file_history":
 	[
+		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/readme.md",
 		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/package.json",
 		"/Users/tommi/.bash_profile",
 		"/Users/tommi/Documents/thomastraum/sites/node/nnnooowww/.bash_profile",
@@ -780,7 +785,6 @@
 		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/main.js",
 		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/nodemon.json",
 		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/arena-ram.sublime-project",
-		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/readme.md",
 		"/Users/tommi/Documents/thomastraum/sites/meteor/tt-archiv/client/templates/about_page.html",
 		"/Users/tommi/Documents/thomastraum/sites/meteor/tt-archiv/client/templates/application/header.html",
 		"/Users/tommi/Documents/thomastraum/sites/meteor/tt-archiv/client/helpers/router.js",
@@ -910,6 +914,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"->\n",
+			"nextPage",
+			"p",
+			"mediaTemplate",
 			"3s",
 			"ima",
 			"2",
@@ -1033,11 +1041,7 @@
 			"h1",
 			"C7D8EF",
 			"C1CEDC",
-			"F1DDD1",
-			"D2BCAF",
-			"D2B3A0",
-			"DBB69F",
-			"A2BEDC"
+			"F1DDD1"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1086,7 +1090,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -1094,15 +1098,15 @@
 					"file": "css/ram.css",
 					"settings":
 					{
-						"buffer_size": 1780,
+						"buffer_size": 1959,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								484,
-								484
+								558,
+								558
 							]
 						],
 						"settings":
@@ -1112,7 +1116,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 756.0,
+						"translation.y": 131.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1122,15 +1126,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 2376,
+						"buffer_size": 2506,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1006,
-								1006
+								1179,
+								1179
 							]
 						],
 						"settings":
@@ -1139,7 +1143,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 406.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1149,15 +1153,15 @@
 					"file": "src/main.coffee",
 					"settings":
 					{
-						"buffer_size": 2528,
+						"buffer_size": 2666,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								321,
-								321
+								2545,
+								2545
 							]
 						],
 						"settings":
@@ -1166,7 +1170,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 311.0,
+						"translation.y": 1035.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1183,8 +1187,8 @@
 						"selection":
 						[
 							[
-								145,
-								145
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1309,6 +1313,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"rea",
+				"readme.md"
+			],
 			[
 				"ram",
 				"css/ram.css"
@@ -1816,10 +1824,6 @@
 			[
 				"debug",
 				"wp-content/debug.log"
-			],
-			[
-				"layout.",
-				"wp-content/themes/thomastraum-2015/css/layout.css"
 			]
 		],
 		"width": 0.0

@@ -37,6 +37,11 @@ a,a:hover {
 	text-transform: uppercase;
   line-height: 1em;
   text-decoration: none;
+  /*visibility: hidden;*/
+  /*opacity: 0;*/
+  -webkit-transition: opacity 0.4s 0s, visibility 0s 0.4s;
+  -moz-transition: opacity 0.4s 0s, visibility 0s 0.4s;
+  transition: opacity 0.4s 0s, visibility 0s 0.4s;
 }
 
 
@@ -52,12 +57,12 @@ a,a:hover {
   transition: opacity 1.3s 0s, visibility 0s 1.3s;
 }
 
-#loading.is-visible {
+.is-visible {
   /* the button becomes visible */
   visibility: visible;
   opacity: 1;
 }
-#loading.not-visible {
+.not-visible {
   /* the button becomes visible */
   visibility: hidden;
   opacity: 0;
@@ -86,11 +91,13 @@ a,a:hover {
   -moz-transition: opacity .3s 0s, visibility 0s .3s;
   transition: opacity .3s 0s, visibility 0s .3s;
 }
+
 .cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
   -webkit-transition: opacity .3s 0s, visibility 0s 0s;
   -moz-transition: opacity .3s 0s, visibility 0s 0s;
   transition: opacity .3s 0s, visibility 0s 0s;
 }
+
 .cd-top.cd-is-visible {
   /* the button becomes visible */
   visibility: visible;
@@ -98,15 +105,25 @@ a,a:hover {
 }
 
 @media (max-width:768px){
-  h1 {
-    font-size: 75%
-  }
-}
 
-@media (max-width:992px){
-  h1 {
-    font-size: 90%
+/*  body,html {
+    font-size: 75%
+    }*/
+
+    h1 {
+      font-size: 75%
+    }
+
+    .lead {
+      font-size: 60%
+    }
+
   }
-}
+
+  @media (max-width:992px){
+/*  h1 {
+    font-size: 90%
+    }*/
+  }
 
 
