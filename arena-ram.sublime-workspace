@@ -520,14 +520,6 @@
 	"buffers":
 	[
 		{
-			"file": "css/ram.css",
-			"settings":
-			{
-				"buffer_size": 1959,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "index.html",
 			"settings":
 			{
@@ -544,14 +536,6 @@
 			}
 		},
 		{
-			"file": "src/ui.coffee",
-			"settings":
-			{
-				"buffer_size": 369,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "Gruntfile.js",
 			"settings":
 			{
@@ -564,6 +548,22 @@
 			"settings":
 			{
 				"buffer_size": 286,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/ram.css",
+			"settings":
+			{
+				"buffer_size": 2259,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/ui.coffee",
+			"settings":
+			{
+				"buffer_size": 525,
 				"line_ending": "Unix"
 			}
 		}
@@ -764,11 +764,11 @@
 	},
 	"file_history":
 	[
+		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/css/ram.css",
 		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/readme.md",
 		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/package.json",
 		"/Users/tommi/.bash_profile",
 		"/Users/tommi/Documents/thomastraum/sites/node/nnnooowww/.bash_profile",
-		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/css/ram.css",
 		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/Gruntfile.js",
 		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/css/bootstrap/dist/css/bootstrap.min.css",
 		"/Users/tommi/Documents/thomastraum/sites/are.na-ram/css/bootstrap-theme.min.css",
@@ -914,6 +914,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"1.3s",
+			"nav",
+			"loadin",
 			"->\n",
 			"nextPage",
 			"p",
@@ -1038,10 +1041,7 @@
 			"www/thomastraum.com",
 			"update_status_from_feed",
 			"Last updated",
-			"h1",
-			"C7D8EF",
-			"C1CEDC",
-			"F1DDD1"
+			"h1"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1090,39 +1090,11 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "css/ram.css",
-					"settings":
-					{
-						"buffer_size": 1959,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								558,
-								558
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 131.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "index.html",
 					"settings":
 					{
@@ -1133,8 +1105,8 @@
 						"selection":
 						[
 							[
-								1179,
-								1179
+								788,
+								788
 							]
 						],
 						"settings":
@@ -1143,13 +1115,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 406.0,
+						"translation.y": 179.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "src/main.coffee",
 					"settings":
 					{
@@ -1160,8 +1132,8 @@
 						"selection":
 						[
 							[
-								2545,
-								2545
+								623,
+								623
 							]
 						],
 						"settings":
@@ -1170,40 +1142,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1035.0,
+						"translation.y": 261.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "src/ui.coffee",
-					"settings":
-					{
-						"buffer_size": 369,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
+					"buffer": 2,
 					"file": "Gruntfile.js",
 					"settings":
 					{
@@ -1231,7 +1176,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 3,
 					"file": "package.json",
 					"settings":
 					{
@@ -1249,6 +1194,87 @@
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/ram.css",
+					"settings":
+					{
+						"buffer_size": 2259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								637,
+								637
+							],
+							[
+								660,
+								660
+							],
+							[
+								693,
+								693
+							],
+							[
+								716,
+								716
+							],
+							[
+								744,
+								744
+							],
+							[
+								767,
+								767
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 522.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "src/ui.coffee",
+					"settings":
+					{
+						"buffer_size": 525,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								32
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -1277,11 +1303,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -1314,12 +1347,12 @@
 		"selected_items":
 		[
 			[
-				"rea",
-				"readme.md"
-			],
-			[
 				"ram",
 				"css/ram.css"
+			],
+			[
+				"rea",
+				"readme.md"
 			],
 			[
 				"pack",
@@ -1848,6 +1881,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 227.0,
+	"side_bar_width": 141.0,
 	"status_bar_visible": true
 }
